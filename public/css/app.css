@@ -1,0 +1,58 @@
+.calcul{
+    /* background-color: rgb(57, 62, 62); */
+    background-image: url(../images/neuroscience-fitness.webp);
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: 50px 350px ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid;
+}
+input{
+    width: 300px;
+    height: 60px;
+    outline: none;
+    padding: 0 5px;
+    border: 3px solid;
+
+}
+
+.calcul div{
+    display: flex;
+    justify-content: space-evenly;
+}
+div p{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 149, 0, 0.954);
+    border: 3px solid;
+    color: azure;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+div p:hover{
+background-color: rgb(252, 252, 252);
+color: black;
+}
+.numbers{
+    background-color: rgba(83, 83, 87, 0.838);
+    border: 3px solid;
+
+}
+.resault{
+    border-radius: 0;
+    width: 130px;
+}
+/*  */
+.changemode{
+    font-size: x-large;
+}
+.mode{
+    background-color: orange;
+}
+
